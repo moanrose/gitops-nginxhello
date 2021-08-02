@@ -1,0 +1,12 @@
+apiVersion: v2
+name: gf-kafka
+description: GF Kafka
+type: application
+version: 0.0.1
+appVersion: "0.0.1"
+dependencies:
+  - name: kafka
+    version: 1.0.0
+    repository: https://charts.bitnami.com/bitnami/
+
+

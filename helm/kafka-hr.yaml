@@ -1,0 +1,15 @@
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: kafka-hr
+  namespace: default
+  annotations:
+    fluxcd.io/ignore: "false"
+spec:
+  chart:
+    git: ssh://git@github.com/moanrose/gitops-nginxhello.git
+    path: helm/kafka
+    ref: master
+  rollback:
+    enable: true
+    retry: true

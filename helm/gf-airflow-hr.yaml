@@ -8,7 +8,7 @@ metadata:
 spec:
   chart:
     git: ssh://git@github.com/moanrose/gitops-nginxhello.git
-    path: helm/gf-airflow
+    path: helm/airflow
     ref: master
   rollback:
     enable: true

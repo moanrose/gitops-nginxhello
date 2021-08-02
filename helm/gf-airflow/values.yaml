@@ -1,0 +1,10 @@
+airflow:
+  images:
+    airflow:
+      repository: moanrose.azurecr.io/gf.airflow
+      tag: 0.0.3
+  ingress:
+    enabled: true
+    web:
+      host: airflow.local
+      path: /

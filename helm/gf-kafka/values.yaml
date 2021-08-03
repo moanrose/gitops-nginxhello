@@ -1,2 +1,11 @@
 kafka:
   fullnameOverride: 'kafka'
+  externalAccess:
+    enabled: true
+    service:
+      type: NodePort
+      port: 9094
+  serviceAccount:
+    create: true
+  rbac:
+    create: true

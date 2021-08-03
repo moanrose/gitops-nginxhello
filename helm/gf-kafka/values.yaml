@@ -5,7 +5,7 @@ kafka:
     service:
       type: NodePort
       nodePorts:
-        - 9094
+        - 30092
   serviceAccount:
     create: true
   rbac:

@@ -4,7 +4,8 @@ kafka:
     enabled: true
     service:
       type: NodePort
-      port: 9094
+      nodePorts:
+        - 9094
   serviceAccount:
     create: true
   rbac:

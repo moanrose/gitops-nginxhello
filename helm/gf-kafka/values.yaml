@@ -1,6 +1,6 @@
 kafka:
   fullnameOverride: 'kafka'
-  advertisedListeners: ["kafka:9092"]
+  advertisedListeners: ["PLAINTEXT://kafka:9092"]
   serviceAccount:
     create: true
   rbac:

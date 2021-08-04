@@ -1,7 +1,5 @@
 kafka:
   fullnameOverride: 'kafka'
-  advertisedListeners: ["LISTENER_BOB://kafka:9092"]
-  listenerSecurityProtocolMap: ["LISTENER_BOB:PLAINTEXT"]
   serviceAccount:
     create: true
   rbac:

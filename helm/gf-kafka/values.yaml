@@ -2,7 +2,7 @@ kafka:
   fullnameOverride: 'kafka'
   externalAccess:
     enabled: true
-    useHostIPs: true
+    useHostIPs: false
     service:
       type: NodePort
       nodePorts:

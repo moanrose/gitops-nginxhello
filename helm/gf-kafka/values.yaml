@@ -1,12 +1,6 @@
 kafka:
   fullnameOverride: 'kafka'
-  externalAccess:
-    enabled: true
-    useHostIPs: false
-    service:
-      type: NodePort
-      nodePorts:
-        - 30092
+  advertisedListeners: ["kafka:9092"]
   serviceAccount:
     create: true
   rbac:

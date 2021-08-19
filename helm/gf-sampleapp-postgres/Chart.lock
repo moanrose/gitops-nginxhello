@@ -1,0 +1,6 @@
+dependencies:
+- name: sampleapp-postgres
+  repository: oci://moanrose.azurecr.io/helm
+  version: 0.1.28
+digest: sha256:eba47c3d134319d3c26255abf1991dd1bc8b3de857747bd8d27d07d49177cf47
+generated: "2021-08-19T08:27:39.7953807+02:00"

@@ -1,14 +1,14 @@
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
-  name: gf-kafka-hr
+  name: sampleapp-postgres-hr
   namespace: default
   annotations:
     fluxcd.io/ignore: "true"
 spec:
   chart:
     git: ssh://git@github.com/moanrose/gitops-nginxhello.git
-    path: helm/gf-kafka
+    path: helm/gf-sampleapp-postgres
     ref: master
   rollback:
     enable: true

@@ -1,0 +1,10 @@
+apiVersion: v2
+name: gf-sampleapp-postgres
+description: GF Sampleapp Postgres
+type: application
+version: 0.0.1
+appVersion: "0.0.1"
+dependencies:
+  - name: sampleapp-postgres
+    version: 0.1.28
+    repository: oci://moanrose.azurecr.io/helm
